@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOTA System</title>
+	<style>
+	  body {
+      margin: 0;
+      padding: 0;
+	  background: #666666
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f1f1f1;
+    }
+
+    .vertical-window {
+      width: 40vw;
+      height: 80vh;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      
+      padding: 20px;
+      opacity: 1;
+      animation: container 2s ease 0s 1 normal forwards;
+	  background: #ffffff url(jj.png) center center/cover no-repeat;
+	  border-radius: 10px;
+    }
+
+    @keyframes container {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.2;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+	.button {
+      margin: 0 10px;
+	  opacity: 1;
+	  transition: opacity 1s ease 0s;
+	  background-color: #198bd2; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 24px;
+    }
+	.header{
+	  color: #ffffff;
+	
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="vertical-window">
+			<h1 class="header">FOTA</h1>
+			
+			<!-- Upload Section -->
+			<h2 class="header">Upload a File</h2>
+			<input type="file" id="fileInput">
+			<button class="button" onclick="uploadFile()">Upload</button>
+
+			<!-- Download Section -->
+			<!--<h2 class="header">Download a File</h2>-->
+			<!--<button class="button" onclick="downloadFile()">Download</button>-->
+		</div>
+	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+    <script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyBWjgzkX-pk4W9lYy7YnBieu5hrq_zLhio",
+    authDomain: "fota-project-df38a.firebaseapp.com",
+    projectId: "fota-project-df38a",
+    storageBucket: "fota-project-df38a.appspot.com",
+    messagingSenderId: "53524243751",
+    appId: "1:53524243751:web:fb14595353d56c5ed0b502",
+    measurementId: "G-PS1B7LLYQ4"
+  };
+		
+		// Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const storage = firebase.storage();
+
+		console.log(firebase)
+		
+        // Function to upload a file
+        function uploadFile() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+            const storageRef = storage.ref('files/' + file.name);
+
+            storageRef.put(file).then((snapshot) => {
+                console.log('File uploaded!');
+            });
+        }
+
+        // Function to download a file
+        function downloadFile() {
+            const storageRef = storage.ref('files/file.txt');
+            storageRef.getDownloadURL().then((url) => {
+                const xhr = new XMLHttpRequest();
+                xhr.responseType = 'blob';
+                xhr.onload = (event) => {
+                    const blob = xhr.response;
+                    const a = document.createElement('a');
+                    a.href = window.URL.createObjectURL(blob);
+                    a.download = 'downloaded_file.txt';
+                    a.style.display = 'none';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                };
+                xhr.open('GET', url);
+                xhr.send();
+            });
+        }
+    </script>
+</body>
+</html>
+
