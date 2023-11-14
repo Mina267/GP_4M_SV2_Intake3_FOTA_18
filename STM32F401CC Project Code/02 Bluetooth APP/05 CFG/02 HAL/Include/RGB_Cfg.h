@@ -1,0 +1,17 @@
+
+
+#ifndef RGB_CFG_H_
+#define RGB_CFG_H_
+
+#define SHOW_ROOM_TIME_MS	5
+
+#define RED_PIN			PIN3
+#define GREEN_PIN		PIN5
+#define BLUE_PIN		PIN4
+
+#define RGB_RED_CHANNEL		TIM4_CHANNEL_1
+#define RGB_GRN_CHANNEL		TIM4_CHANNEL_2
+#define RGB_BLU_CHANNEL		TIM4_CHANNEL_3
+#define RGB_PWM_FREQ		(0.0025)
+
+#endif /* RGB_CFG_H_ */
