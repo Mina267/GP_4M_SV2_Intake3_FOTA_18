@@ -100,7 +100,7 @@ Transmit to the main ECU suitable Positive and Negative responses.
 
 #### NRC enum
 
-```http
+```HTTP
 /* Negative Response NRC */
 typedef enum
 {
