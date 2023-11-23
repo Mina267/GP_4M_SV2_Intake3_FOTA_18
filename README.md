@@ -41,7 +41,7 @@ II. During the boot process, the bootloader verifies the integrity of both firmw
 
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/a8494035-72d8-4908-992a-378ccab474f2" width=40% height=40%/>
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/a8494035-72d8-4908-992a-378ccab474f2" width=30% height=30%/>
 </p>
 
 
@@ -127,10 +127,10 @@ typedef enum
 #### Basic communication module
 
 That provides total abstraction between Application and hardware ‎
-By providing two communication Queues for Transmitting and receiving using ‎interrupts
+Providing two communication Queues for Transmitting and receiving using ‎interrupts
 
 <p align="center">
-	<img src="https://github.com/Mina267/Parallel-AutoParking/assets/71601701/ec5f18e7-1eb7-4d92-be66-fd557f346636" width="500" height="400" />
+	<img src="https://github.com/Mina267/Parallel-AutoParking/assets/71601701/ec5f18e7-1eb7-4d92-be66-fd557f346636" width=50% height=50% />
 </p>
 
 
@@ -139,7 +139,10 @@ By introducing a simple FEE (Flash EEPROM Emulator) structure, developers and ad
 
 In our FOTA project we created a simple FEE driver mainly to store flags in two bytes of data in sector one in flash memory, this driver supports three main functions for read and write and the Init function in case of reset to restore the last data stored.
 
-![frame](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/f5dcb585-cb4f-4c1a-aa27-9a172ea81b09)
+
+<p align="center">
+	<img src="https://github.com/Mina267/Parallel-AutoParking/assets/71601701/f5dcb585-cb4f-4c1a-aa27-9a172ea81b09" width=50% height=50% />
+</p>
 
 
 
@@ -156,7 +159,7 @@ The update code fetches the update file from the OEM server and then decrypts it
 The mobile application will serve as an intuitive friendly GUI, allowing users to easily check for updates and choose between updating and not updating. This will simplify the updating process and ensure that users get the latest features and improvements easily. Actions taken by the user send an indication to the server which chooses the suitable response according to the user's action.
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture1.jpg" width="450" height="500" />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture1.jpg" width = 50% height = 50% />
 </p>
 
 ## OEM SERVER
@@ -181,7 +184,7 @@ Using Three PWM to provide various color ranges.
 Hasing two modes Set color and ShowRoom mode.
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width="450" height="500" />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width = 50% height = 50% />
 </p>
 
 ### Obstacle Avoidance
