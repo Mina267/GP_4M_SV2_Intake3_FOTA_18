@@ -232,7 +232,9 @@ such as Bluetooth communication, motor control, and RGB LED control. and speed c
 
 ## State machine
 
-![WhatsApp Image 2023-11-17 at 23 51 35_8f9c4976](https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/dc09ec38-fec1-4a97-9aa4-288a10b29e8d)
+<p align="center">
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/dc09ec38-fec1-4a97-9aa4-288a10b29e8d" width = 50% height = 50% />
+</p>
 
 
 ## Schematic Diagram
