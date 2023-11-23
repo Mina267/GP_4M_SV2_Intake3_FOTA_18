@@ -1,7 +1,6 @@
 # ITI Graduation Project 
 # Firmware Over The Air (FOTA)
 
-<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width="200" height="400" />
 
 ## INTRODUCTION
 Firmware Over-The-Air (FOTA) is a project aimed at enabling remote updates of
@@ -172,6 +171,9 @@ Using Three PWM to provide various color ranges.
 Hasing two modes Set color and ShowRoom mode.
 
 ![RGB1](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/cd1d58c1-baeb-4280-8e29-d3c1aa4d88a9)
+
+<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width="200" height="400" />
+
 
 ### Obstacle Avoidance
 
