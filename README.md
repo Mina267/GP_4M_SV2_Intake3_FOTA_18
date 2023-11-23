@@ -204,3 +204,9 @@ optimizing resource utilization. The application allows users to control the car
 movement wirelessly through Bluetooth communication. FreeRTOS manages tasks 
 such as Bluetooth communication, motor control, and RGB LED control. and speed control using PWM.‎
 
+
+## Schematic Diagram
+
+<p align="center">
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/329744a5-3d20-4506-bd07-d1f4a213ffd0" width = 40% height = 40% />
+</p>
