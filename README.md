@@ -172,7 +172,7 @@ Hasing two modes Set color and ShowRoom mode.
 
 ![RGB1](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/cd1d58c1-baeb-4280-8e29-d3c1aa4d88a9)
 
-<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width="200" height="400" />
+<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width=50% height=auto />
 
 
 ### Obstacle Avoidance
