@@ -86,7 +86,7 @@ flashing a new update using UDS, you will require various UDS services.
 
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/765cbe58-2e5b-47c0-965d-6ea425495b96" width=auto height=auto />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/765cbe58-2e5b-47c0-965d-6ea425495b96" width=60% height=60% />
 </p>
 
 ## Positive and Negative responses
