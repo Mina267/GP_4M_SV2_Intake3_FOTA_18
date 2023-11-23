@@ -144,8 +144,9 @@ The update code fetches the update file from the OEM server and then decrypts it
 ## MOBILE APPLICATION
 The mobile application will serve as an intuitive friendly GUI, allowing users to easily check for updates and choose between updating and not updating. This will simplify the updating process and ensure that users get the latest features and improvements easily. Actions taken by the user send an indication to the server which chooses the suitable response according to the user's action.
 
-![Picture1](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/f7f360cb-3332-4183-8c79-585b284b7853)
-
+<p align="center">
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture1.jpg" width="450" height="500" />
+</p>
 
 ## OEM SERVER
 ### Firebase
@@ -154,7 +155,7 @@ The OEM Firebase platform serves as an innovative and reliable foundation for se
 We created a web page to choose and upload the file that we want to be downloaded on Raspberry Pi to be flashed on STM. This page was designed with HTML, CSS, and JavaScript. It consists of two buttons, one to choose a file from a local device and another button to upload the chosen file on the Firebase storage section. The code of this page includes a part for Firebase. This part links the web page to Firebase and it is necessary to write configurations of the Firebase project in HTML code but between script tags.
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture2.jpg" width="450" height="500" />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture2.png" width="450" height="500" />
 </p>
 ## APPLICATION using FreeRTOS
 
