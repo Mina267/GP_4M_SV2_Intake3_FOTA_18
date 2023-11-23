@@ -9,7 +9,23 @@ security, and reliability. By leveraging wireless communication channels, FOTA
 minimizes downtime and reduces the need for manual interventions, making it a
 valuable tool for managing firmware across many distributed devices.
 
+<h2>🧐 Features</h2>
 
+Here are some of the project's best features:
+
+*   Bootloader Application
+*   FDI: (Flash Driver Interface) Peripheral in MCU.
+*   GUI (Graphical User Interface).
+*   HTTP Web & FireBase Server.
+*   RTOS ( Real-Time Operating System) Application.
+*   Raspberry Pi (Mian ECU) communicates with STM32f401
+*   RGB Application
+*   Flash EEPROM Emulator (FEE) Driver
+*   Mobile application
+*   Robotic Car (Bluetooth control & Avoid Obstiacle) Application
+*   Encryption of the Data updates.
+
+  
 ## Project Diagram
 
 <p align="center">
@@ -220,18 +236,4 @@ such as Bluetooth communication, motor control, and RGB LED control. and speed c
 
 [https://drive.google.com/drive/u/0/folders/1wXkt2K9xu4MFUkso8Qdb8Xw\_Cet7fETH](https://drive.google.com/drive/u/0/folders/1wXkt2K9xu4MFUkso8Qdb8Xw_Cet7fETH)
 
-<h2>🧐 Features</h2>
 
-Here're some of the project's best features:
-
-*   Bootloader Application
-*   FDI: (Flash Driver Interface) Peripheral in MCU.
-*   GUI (Graphical User Interface).
-*   HTTP Web & FireBase Server.
-*   RTOS ( Real-Time Operating System) Application.
-*   Raspberry Pi (Mian ECU) communicates with STM32f401
-*   RGB Application
-*   Flash EEPROM Emulator (FEE) Driver
-*   Mobile application
-*   Robotic Car (Bluetooth control & Avoid Obstiacle) Application
-*   Encryption of the Data updates.
