@@ -133,7 +133,7 @@ In our FOTA project we created a simple FEE driver mainly to store flags in two 
 
 
 ## RASPBERRY PI
-On the Raspberry Pi, after enable the UART protocol to communicate with STM, three main Python code files are used:
+On the Raspberry Pi, after enabling the UART protocol to communicate with STM, three main Python code files are used:
 ### Server.py
 The server code acts as a bridge between the Raspberry Pi and the mobile app, listening for user actions. It creates a server socket and waits for incoming connections from the mobile app. Once a connection is established, it receives user commands or actions, such as requesting an update or checking. Based on the received action, the server code initiates the corresponding subprocess whether it is update or checking for updates.
 ### Check_For_Update.py
@@ -168,7 +168,7 @@ Using Three PWM to provide various color ranges.
 
 Hasing two modes Set color and ShowRoom mode.
 
-![RGB1](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/cd1d58c1-baeb-4280-8e29-d3c1aa4d88a9)
+<img src="https://camo.githubusercontent.com/..." data-canonical-src=https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width="50" height="50" />
 
 ### Obstacle Avoidance
 
