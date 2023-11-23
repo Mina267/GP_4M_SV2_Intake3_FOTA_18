@@ -36,7 +36,7 @@ II. During the boot process, the bootloader verifies the integrity of both firmw
 
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/a8494035-72d8-4908-992a-378ccab474f2" width="450" height="500" />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/a8494035-72d8-4908-992a-378ccab474f2" width="450" height="600" />
 </p>
 
 
