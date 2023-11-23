@@ -35,7 +35,9 @@ I. The bootloader checks the currently active memory bank and determines which v
 II. During the boot process, the bootloader verifies the integrity of both firmware versions and selects the appropriate version to execute.
 
 
-![Screenshot 2023-11-22 025111](https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/a8494035-72d8-4908-992a-378ccab474f2)
+<p align="center">
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/a8494035-72d8-4908-992a-378ccab474f2" width="450" height="500" />
+</p>
 
 
 ## UDS standard
