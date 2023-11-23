@@ -219,3 +219,19 @@ such as Bluetooth communication, motor control, and RGB LED control. and speed c
 <h2>🚀 Demo</h2>
 
 [https://drive.google.com/drive/u/0/folders/1wXkt2K9xu4MFUkso8Qdb8Xw\_Cet7fETH](https://drive.google.com/drive/u/0/folders/1wXkt2K9xu4MFUkso8Qdb8Xw_Cet7fETH)
+
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Bootloader Application
+*   FDI: (Flash Driver Interface) Peripheral in MCU.
+*   GUI (Graphical User Interface).
+*   HTTP Web & FireBase Server.
+*   RTOS ( Real-Time Operating System) Application.
+*   Raspberry Pi (Mian ECU) communicates with STM32f401
+*   RGB Application
+*   Flash EEPROM Emulator (FEE) Driver
+*   Mobile application
+*   Robotic Car (Bluetooth control & Avoid Obstiacle) Application
+*   Encryption of the Data updates.
