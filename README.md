@@ -192,11 +192,16 @@ We created a web page to choose and upload the file that we want to be downloade
 <p align="center">
 	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture2.png" width = 50% height = 50% />
 </p>
+
 ## APPLICATION using FreeRTOS
 
 Using API's
 
-
+	Queue
+  	semaphores
+   	Mutex
+    	Event Groups
+     	Hooks
 
 ### RGB application
 
