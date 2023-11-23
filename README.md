@@ -198,10 +198,10 @@ We created a web page to choose and upload the file that we want to be downloade
 Using API's
 
     Queue
-    semaphores
+    Semaphores
     Mutex
     Event Groups
-    Hooks
+    Trace Hook Macros
 
 ### RGB application
 
