@@ -153,10 +153,8 @@ The OEM Firebase platform serves as an innovative and reliable foundation for se
 ### GUI
 We created a web page to choose and upload the file that we want to be downloaded on Raspberry Pi to be flashed on STM. This page was designed with HTML, CSS, and JavaScript. It consists of two buttons, one to choose a file from a local device and another button to upload the chosen file on the Firebase storage section. The code of this page includes a part for Firebase. This part links the web page to Firebase and it is necessary to write configurations of the Firebase project in HTML code but between script tags.
 
-![Picture2](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/70f5633f-1cf0-4765-967c-3d4c85ca1d58)
-
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture1.jpg" width="450" height="500" />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture2.jpg" width="450" height="500" />
 </p>
 ## APPLICATION using FreeRTOS
 
