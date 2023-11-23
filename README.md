@@ -139,15 +139,16 @@ On the Raspberry Pi, after enabling the UART protocol to communicate with STM, t
 ### Server.py
 The server code acts as a bridge between the Raspberry Pi and the mobile app, listening for user actions. It creates a server socket and waits for incoming connections from the mobile app. Once a connection is established, it receives user commands or actions, such as requesting an update or checking. Based on the received action, the server code initiates the corresponding subprocess whether it is update or checking for updates.
 ### Check_For_Update.py
-The check for update code is responsible for checking for available firmware updates. It connects to the OEM server repository and retrieves information about the latest firmware version. Using this information, it compares the current firmware version on the Raspberry Pi and determines if an update is available or not.
+The check for update code is responsible for checking for available firmware updates. It connects to the OEM server repository and retrieves information about the latest firmware version. Using this information, it compares the current firmware version of the Raspberry Pi and determines if an update is available or not.
 ### Update.py
 The update code fetches the update file from the OEM server and then decrypts it, after that initiate UART protocol communicates with STM to initiate the update process by extracting information from the update file and sending it to STM and waiting for a response to continue in this process until last line in update file.
 
 ## MOBILE APPLICATION
 The mobile application will serve as an intuitive friendly GUI, allowing users to easily check for updates and choose between updating and not updating. This will simplify the updating process and ensure that users get the latest features and improvements easily. Actions taken by the user send an indication to the server which chooses the suitable response according to the user's action.
 
-![Picture1](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/f7f360cb-3332-4183-8c79-585b284b7853)
-
+<p align="center">
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture1.jpg" width=auto height=auto />
+</p>
 
 ## OEM SERVER
 ### Firebase
@@ -155,8 +156,9 @@ The OEM Firebase platform serves as an innovative and reliable foundation for se
 ### GUI
 We created a web page to choose and upload the file that we want to be downloaded on Raspberry Pi to be flashed on STM. This page was designed with HTML, CSS, and JavaScript. It consists of two buttons, one to choose a file from a local device and another button to upload the chosen file on the Firebase storage section. The code of this page includes a part for Firebase. This part links the web page to Firebase and it is necessary to write configurations of the Firebase project in HTML code but between script tags.
 
-![Picture2](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/70f5633f-1cf0-4765-967c-3d4c85ca1d58)
-
+<p align="center">
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture2.png" width=auto height=auto />
+</p>
 
 ## APPLICATION using FreeRTOS
 
@@ -169,10 +171,6 @@ Using API's
 Using Three PWM to provide various color ranges.
 
 Hasing two modes Set color and ShowRoom mode.
-
-![RGB1](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/cd1d58c1-baeb-4280-8e29-d3c1aa4d88a9)
-
-
 
 <p align="center">
 	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width=auto height=auto />
