@@ -137,7 +137,7 @@ On the Raspberry Pi, after enable the UART protocol to communicate with STM, thr
 ### Server.py
 The server code acts as a bridge between the Raspberry Pi and the mobile app, listening for user actions. It creates a server socket and waits for incoming connections from the mobile app. Once a connection is established, it receives user commands or actions, such as requesting an update or checking. Based on the received action, the server code initiates the corresponding subprocess whether it is update or checking for updates.
 ### Check_For_Update.py
-The check for update code is responsible for checking for available firmware updates. It connects to the OEM server repository and retrieves information about the latest firmware version. Using this information, it compares the current firmware version on the Raspberry Pi and determines if an update is available or not.
+The check for update code is responsible for checking for available firmware updates. It connects to the OEM server repository and retrieves information about the latest firmware version. Using this information, it compares the current firmware version of the Raspberry Pi and determines if an update is available or not.
 ### Update.py
 The update code fetches the update file from the OEM server and then decrypts it, after that initiate UART protocol communicates with STM to initiate the update process by extracting information from the update file and sending it to STM and waiting for a response to continue in this process until last line in update file.
 
@@ -169,7 +169,7 @@ Using Three PWM to provide various color ranges.
 Hasing two modes Set color and ShowRoom mode.
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width=100 height=150 />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width="300" height="400" />
 </p>
 
 ### Obstacle Avoidance
