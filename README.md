@@ -84,8 +84,10 @@ flashing a new update using UDS, you will require various UDS services.
     7- Request Transfer Exit        (SID: 0x37)
 
 
-![3](https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/765cbe58-2e5b-47c0-965d-6ea425495b96)
 
+<p align="center">
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/765cbe58-2e5b-47c0-965d-6ea425495b96" width="450" height="400" />
+</p>
 
 ## Positive and Negative responses
 
@@ -123,7 +125,7 @@ That provides total abstraction between Application and hardware ‎
 By providing two communication Queues for Transmitting and receiving using ‎interrupts
 
 <p align="center">
-	<img src="https://github.com/Mina267/Parallel-AutoParking/assets/71601701/ec5f18e7-1eb7-4d92-be66-fd557f346636" width="450" height="450" />
+	<img src="https://github.com/Mina267/Parallel-AutoParking/assets/71601701/ec5f18e7-1eb7-4d92-be66-fd557f346636" width="450" height="400" />
 </p>
 
 
