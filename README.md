@@ -169,7 +169,7 @@ The OEM Firebase platform serves as an innovative and reliable foundation for se
 We created a web page to choose and upload the file that we want to be downloaded on Raspberry Pi to be flashed on STM. This page was designed with HTML, CSS, and JavaScript. It consists of two buttons, one to choose a file from a local device and another button to upload the chosen file on the Firebase storage section. The code of this page includes a part for Firebase. This part links the web page to Firebase and it is necessary to write configurations of the Firebase project in HTML code but between script tags.
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture2.png" width="450" height="500" />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture2.png" width = 50% height = 50% />
 </p>
 ## APPLICATION using FreeRTOS
 
@@ -184,7 +184,7 @@ Using Three PWM to provide various color ranges.
 Hasing two modes Set color and ShowRoom mode.
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width = 50% height = 50% />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width = 40% height = 40% />
 </p>
 
 ### Obstacle Avoidance
