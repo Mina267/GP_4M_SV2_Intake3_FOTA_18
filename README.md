@@ -12,9 +12,14 @@ valuable tool for managing firmware across many distributed devices.
 
 ## Project Diagram
 
-![1](https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/2e2e26c0-6bb6-4586-b6e7-e61cf3ace267)
+<p align="center">
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/2e2e26c0-6bb6-4586-b6e7-e61cf3ace267" width=60% height=60% />
+</p>
 
-![2](https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/15791888-de52-4459-8e02-5c2150e7cf07)
+<p align="center">
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/15791888-de52-4459-8e02-5c2150e7cf07" width=60% height=60% />
+</p>
+
 ### BOOTLOADER APPLICATION
 A bootloader is a small program residing in the microcontroller that enables the
 firmware update process. It is responsible for receiving the new software image and
