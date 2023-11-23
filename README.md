@@ -122,7 +122,9 @@ typedef enum
 That provides total abstraction between Application and hardware ‎
 By providing two communication Queues for Transmitting and receiving using ‎interrupts
 
-![q](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/ec5f18e7-1eb7-4d92-be66-fd557f346636)
+<p align="center">
+	<img src="https://github.com/Mina267/Parallel-AutoParking/assets/71601701/ec5f18e7-1eb7-4d92-be66-fd557f346636" width="450" height="500" />
+</p>
 
 
 ## FEE
