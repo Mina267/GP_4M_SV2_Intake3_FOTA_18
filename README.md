@@ -169,7 +169,7 @@ Using Three PWM to provide various color ranges.
 Hasing two modes Set color and ShowRoom mode.
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width=auto height=auto />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/RGB1.png" width=100 height=150 />
 </p>
 
 ### Obstacle Avoidance
