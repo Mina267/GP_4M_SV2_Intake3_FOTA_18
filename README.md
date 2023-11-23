@@ -15,6 +15,7 @@ Here are some of the project's best features:
 
 *   Bootloader Application
 *   FDI: (Flash Driver Interface) Peripheral in MCU.
+*   UDS standard for communication
 *   GUI (Graphical User Interface).
 *   HTTP Web & FireBase Server.
 *   RTOS ( Real-Time Operating System) Application.
