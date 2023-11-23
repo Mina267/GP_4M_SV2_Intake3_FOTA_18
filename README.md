@@ -208,5 +208,5 @@ such as Bluetooth communication, motor control, and RGB LED control. and speed c
 ## Schematic Diagram
 
 <p align="center">
-	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/329744a5-3d20-4506-bd07-d1f4a213ffd0" width = 40% height = 40% />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/assets/71601701/329744a5-3d20-4506-bd07-d1f4a213ffd0" width = 60% height = 60% />
 </p>
