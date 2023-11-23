@@ -155,7 +155,9 @@ We created a web page to choose and upload the file that we want to be downloade
 
 ![Picture2](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/70f5633f-1cf0-4765-967c-3d4c85ca1d58)
 
-
+<p align="center">
+	<img src="https://github.com/Mina267/Parallel-AutoParking/assets/71601701/70f5633f-1cf0-4765-967c-3d4c85ca1d58" width="450" height="500" />
+</p>
 ## APPLICATION using FreeRTOS
 
 Using API's
