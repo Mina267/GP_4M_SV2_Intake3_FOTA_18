@@ -44,10 +44,10 @@ industry for communication between a tester or diagnostic tool and an electronic
 unit (ECU) in a vehicle. While UDS is primarily used for diagnostics, it can also be
 used for firmware updates or flashing new software to microcontrollers or ECUs.
 
-Connect the raspberry pi (Main ECU) to the STM32F401 ARM microcontroller using
-a suitable communication interface, such as UART (or any another communication).
+Connect the Raspberry Pi (Main ECU) to the STM32F401 ARM microcontroller using
+a suitable communication interface, such as UART (or any other communication).
 Ensure that both devices are powered and properly configured. Transfer the firmware
-Using the UDS protocol, send the firmware image from the raspberry pi (Main ECU)
+Using the UDS protocol, send the firmware image from the Raspberry Pi (Main ECU)
 to the STM32F401 ARM microcontroller. The bootloader on the microcontroller
 receives the image and writes it to the appropriate memory location.
 
@@ -126,14 +126,14 @@ By providing two communication Queues for Transmitting and receiving using ‎in
 ## FEE
 By introducing a simple FEE (Flash EEPROM Emulator) structure, developers and administrators can ensure the secure storage and retrieval of flags during the FOTA process. These flags, which represent specific settings or configurations within the firmware, play a crucial role in determining the behavior and functionality of the device or software being updated.
 
-In our FOTA project we created a simple FEE driver mainly to store flags in two bytes of data in sector one in flash memory, this driver supports three main functions for read and write and Init function in case of reset to restore last data stored.
+In our FOTA project we created a simple FEE driver mainly to store flags in two bytes of data in sector one in flash memory, this driver supports three main functions for read and write and the Init function in case of reset to restore the last data stored.
 
 ![frame](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/f5dcb585-cb4f-4c1a-aa27-9a172ea81b09)
 
 
 
 ## RASPBERRY PI
-On the Raspberry Pi, after enable the UART protocol to communicate with STM, three main Python code files are used:
+On the Raspberry Pi, after enabling the UART protocol to communicate with STM, three main Python code files are used:
 ### Server.py
 The server code acts as a bridge between the Raspberry Pi and the mobile app, listening for user actions. It creates a server socket and waits for incoming connections from the mobile app. Once a connection is established, it receives user commands or actions, such as requesting an update or checking. Based on the received action, the server code initiates the corresponding subprocess whether it is update or checking for updates.
 ### Check_For_Update.py
@@ -156,7 +156,7 @@ We created a web page to choose and upload the file that we want to be downloade
 ![Picture2](https://github.com/Mina267/Parallel-AutoParking/assets/71601701/70f5633f-1cf0-4765-967c-3d4c85ca1d58)
 
 <p align="center">
-	<img src="https://github.com/Mina267/Parallel-AutoParking/assets/71601701/70f5633f-1cf0-4765-967c-3d4c85ca1d58" width="450" height="500" />
+	<img src="https://github.com/Mina267/GP_4M_SV2_Intake3_FOTA_18/blob/main/Images/Picture1.jpg" width="450" height="500" />
 </p>
 ## APPLICATION using FreeRTOS
 
