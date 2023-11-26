@@ -244,13 +244,13 @@ such as Bluetooth communication, motor control, and RGB LED control. and speed c
 </p>
 
 ## Project hardware components.
-ECUs: Raspberry Pi 3 model b+
-STM32F401CC.
-RGB LED
-IR sensors
-Robotic car
-UltraSonic Sensor
-BlueTooth module
+*   ECUs: Raspberry Pi 3 model b+
+*   STM32F401CC.
+*   RGB LED
+*   IR sensors
+*   Robotic car
+*   UltraSonic Sensor
+*   BlueTooth module
 
 
 
