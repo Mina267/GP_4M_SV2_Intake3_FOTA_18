@@ -14,10 +14,8 @@ minimizes downtime and reduces the need for manual interventions, making it a
 valuable tool for managing firmware across many distributed devices.
 
 ## Project Data
-[FOTA]([https://www.google.com](https://drive.google.com/drive/folders/1IETkPUsxgA3EVTfGh3Hs74yi31eII3Wg?usp=sharing))
-in [https://drive.google.com/drive/folders/1IETkPUsxgA3EVTfGh3Hs74yi31eII3Wg?usp=sharing](#Project Data)
+[Project Data](https://drive.google.com/drive/folders/1IETkPUsxgA3EVTfGh3Hs74yi31eII3Wg?usp=sharing)
 
-## Project Data
 
 <h2>🧐 Features</h2>
 
