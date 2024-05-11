@@ -13,6 +13,10 @@ security, and reliability. By leveraging wireless communication channels, FOTA
 minimizes downtime and reduces the need for manual interventions, making it a
 valuable tool for managing firmware across many distributed devices.
 
+## Project Data
+[FOTA]([https://www.google.com](https://drive.google.com/drive/folders/1IETkPUsxgA3EVTfGh3Hs74yi31eII3Wg?usp=sharing))
+
+
 <h2>🧐 Features</h2>
 
 Here are some of the project's best features:
