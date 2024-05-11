@@ -14,7 +14,7 @@ minimizes downtime and reduces the need for manual interventions, making it a
 valuable tool for managing firmware across many distributed devices.
 
 ## Project Data
-[Project Data](https://drive.google.com/drive/folders/1IETkPUsxgA3EVTfGh3Hs74yi31eII3Wg?usp=sharing)
+[GP_4M_SV2_Intake3_FOTA_18](https://drive.google.com/drive/folders/1IETkPUsxgA3EVTfGh3Hs74yi31eII3Wg?usp=sharing)
 
 
 <h2>🧐 Features</h2>
