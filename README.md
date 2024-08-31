@@ -125,7 +125,7 @@ Transmit to the main ECU suitable Positive and Negative responses.
 
 #### NRC enum
 
-```
+```c
 /* Negative Response NRC */
 typedef enum
 {
